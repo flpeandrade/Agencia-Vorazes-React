@@ -3,7 +3,7 @@ import React from "react";
 export default function Contato() {
     return (
         <>
-            <body className="corpo-destino">
+            <section className="corpo-destino">
                 <section id="hero">
                     <h1>Contato</h1>
                 </section>
@@ -36,7 +36,7 @@ export default function Contato() {
                 </form>
                 <br />
                 <br />
-            </body>
+            </section>
         </>
     );
 }

@@ -12,6 +12,7 @@ export default function Menu() {
             <li><Link to="Destinos">Destinos</Link></li>
             <li><Link to="Promocoes">Promoções</Link></li>
             <li><Link to="Contato">Contato</Link></li>
+            <li><Link to="Pacotes">Pacotes</Link></li>
         </ul>
         <div id="mobile">
             <i id="bar" className="fas fa-outdent"></i>

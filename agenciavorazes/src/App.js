@@ -5,6 +5,7 @@ import Home from "./views/Home";
 import Destinos from "./views/Destinos";
 import Promocoes from "./views/Promocoes";
 import Contato from "./views/Contato";
+import Pacotes from "./views/Pacotes"
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Destinos" element={<Destinos/>} />
         <Route path="/Promocoes" element={<Promocoes/>} />
         <Route path="/Contato" element={<Contato/>} />
+        <Route path="/Pacotes" element={<Pacotes/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

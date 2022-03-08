@@ -4,7 +4,7 @@ export default function Destinos() {
     return (
 
         <>
-            <body className="corpo-destino">
+            <section className="corpo-destino">
                 <section id="hero">
                     <h1>Destinos</h1>
                 </section>
@@ -35,7 +35,7 @@ export default function Destinos() {
                         <div className="form-group col-md-4">
                             <label htmlFor="inputState">Adultos</label>
                             <select id="inputState" className="form-control">
-                                <option selected>0</option>
+                                <option>0</option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -46,7 +46,7 @@ export default function Destinos() {
                         <div className="form-group col-md-4">
                             <label htmlFor="inputState">Crianças</label>
                             <select id="inputState" className="form-control">
-                                <option selected>0</option>
+                                <option>0</option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -67,7 +67,7 @@ export default function Destinos() {
                 </form>
                 <br />
                 <br />
-            </body>
+            </section>
         </>
     );
 }
